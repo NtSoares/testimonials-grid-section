@@ -4,11 +4,11 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <!-- displays site properly based on user's device -->
-
+  
   <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
-
   <link rel="stylesheet" href="style.css">
+  <link href="https://fonts.googleapis.com/css2?family=Barlow+Semi+Condensed:wght@500;600&display=swap"
+    rel="stylesheet">
   <title>Testimonial Challenge</title>
 
 </head>
@@ -18,9 +18,14 @@
     <div id="main-left">
       <div id="top">
         <div id="testimonial-1" class="grid-item">
-          <img src="./images/image-daniel.jpg" alt="foto de perfil Daniel">
-          <p>Daniel Clifford</p>
-          <p>Verified Graduate</p>
+          <img id="quote" src="./images/bg-pattern-quotation.svg" alt="imagem aspas fundo">
+          <div class="header">
+            <img src="./images/image-daniel.jpg" alt="foto de perfil Daniel">
+            <div class="header-txt">
+              <p class="name">Daniel Clifford</p>
+              <p>Verified Graduate</p>
+            </div>
+          </div>
           <h4>I received a job offer mid-course, and the subjects I learned were current, if not more so, in the company
             I joined. I honestly feel I got every penny’s worth.</h4>
           <p>“ I was an EMT for many years before I joined the bootcamp. I’ve been looking to make a
@@ -30,9 +35,13 @@
             the course, I’ve successfully switched careers, working as a Software Engineer at a VR startup. ”</p>
         </div>
         <div id="testimonial-2" class="grid-item">
-          <img src="./images/image-jonathan.jpg" alt="foto de perfil Jonathan">
-          <p>Jonathan Walters</p>
-          <p>Verified Graduate</p>
+          <div class="header">
+            <img src="./images/image-jonathan.jpg" alt="foto de perfil Jonathan">
+            <div class="header-text">
+              <p class="name">Jonathan Walters</p>
+              <p>Verified Graduate</p>
+            </div>
+          </div>
           <h4>The team was very supportive and kept me motivated</h4>
           <p>“ I started as a total newbie with virtually no coding skills. I now work as a mobile engineer
             for a big company. This was one of the best investments I’ve made in myself. ”</p>
@@ -40,17 +49,25 @@
       </div>
       <div id="bottom">
         <div id="testimonial-3" class="grid-item">
-          <img src="./images/image-jeanette.jpg" alt="foto de perfil Jeanette">
-          <p>Jeanette Harmon</p>
-          <p>Verified Graduate</p>
+          <div class="header">
+            <img src="./images/image-jeanette.jpg" alt="foto de perfil Jeanette">
+            <div class="header-text">
+              <p class="name">Jeanette Harmon</p>
+              <p>Verified Graduate</p>
+            </div>
+          </div>
           <h4>An overall wonderful and rewarding experience</h4>
           <p>“ Thank you for the wonderful experience! I now have a job I really enjoy, and make a good living
             while doing something I love. ”</p>
         </div>
         <div id="testimonial-4" class="grid-item">
-          <img src="./images/image-patrick.jpg" alt="foto de perfil Patrick">
-          <p>Patrick Abrams</p>
-          <p>Verified Graduate</p>
+          <div class="header">
+            <img src="./images/image-patrick.jpg" alt="foto de perfil Patrick">
+            <div class="header-text">
+              <p class="name">Patrick Abrams</p>
+              <p>Verified Graduate</p>
+            </div>
+          </div>
           <h4>Awesome teaching support from TAs who did the bootcamp themselves. Getting guidance from them and
             learning from their experiences was easy.</h4>
           <p>“ The staff seem genuinely concerned about my progress which I find really refreshing. The program
@@ -61,9 +78,13 @@
       </div>
     </div>
     <div id="testimonial-5" class="grid-item">
-      <img src="./images/image-kira.jpg" alt="foto de perfil Kira">
-      <p>Kira Whittle</p>
-      <p>Verified Graduate</p>
+      <div class="header">
+        <img src="./images/image-kira.jpg" alt="foto de perfil Kira">
+        <div class="header-text">
+          <p class="name">Kira Whittle</p>
+          <p>Verified Graduate</p>
+        </div>
+      </div>
       <h4>Such a life-changing experience. Highly recommended!</h4>
       <p>“ Before joining the bootcamp, I’ve never written a line of code. I needed some structure from
         professionals who can help me learn programming step by step. I was encouraged to enroll by a former
@@ -75,11 +96,11 @@
         100% recommend! ”</p>
     </div>
   </div>
+
+  <div class="attribution">
+    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>.
+    Coded by <a href="https://github.com/NtSoares/testimonials-grid-section">Antonio Neto</a>.
+  </div>
 </body>
 
 </html>
-
-<!-- <div class="attribution">
-    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
-    Coded by <a href="#">Your Name Here</a>.
-  </div> -->
