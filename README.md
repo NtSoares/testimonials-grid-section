@@ -1,4 +1,4 @@
-# QR code component 
+# Testimonials grid section
 
 Este projeto tem como referência o [Testimonials grid section do Frontend Mentor](https://www.frontendmentor.io/challenges/testimonials-grid-section-Nnw6J7Un7). Os desafios do Frontend Mentor ajudam você a melhorar suas habilidades de codificação criando projetos realistas.
 
